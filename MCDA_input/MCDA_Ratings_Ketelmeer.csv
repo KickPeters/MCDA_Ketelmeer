@@ -1,0 +1,17 @@
+MCDA Gold Coast Design Alternatives;;;;;;;
+Stakeholder;Criteria;Storage island; Dry land storage; Storage peninsula; Pipe to North Sea; Three smaller basins;Criteria_Weight
+local/national government;Costs                 ;30;60;40;10;20;0.20
+local/national government;Longevity of solution ;50;50;50;100;80;0.2
+local/national government;Environmental impact  ;80;50;80;0;80;0.1
+local/national government;Influence on industry ;50;20;50;100;40;0.1
+local/national government;Safety                ;90;30;60;30;80;0.4
+Waterway users;Construction downtime           ;0;100;50;30;0;0.15
+Waterway users;Intrusiveness on shipping route ;60;100;80;100;50;0.85
+Local Community;Esthetics               ;60;0;60;100;60;0.10
+Local Community;Hinderance              ;100;0;100;100;100;0.45
+Local Community;Safety                  ;90;0;60;50;90;0.45
+Tourist; Esthetics                      ;80;0;80;100;80;0.40
+Tourist; Recreational opportunities     ;80;0;100;0;80;0.60
+Research Community;Inovation            ;100;0;80;0;100;0.20
+Research Community;Environmental impact ;60;20;60;0;100;0.60
+Research Community;Effectiveness        ;70;70;70;100;70;0.20
