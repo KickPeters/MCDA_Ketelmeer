@@ -81,11 +81,15 @@ def objective_function_3(x1, x2, x3, x4):
     radius_island = np.sqrt(x2 / np.pi)
     br = 3000 # m the passable width of the river
 
-    if x1 < br * 0.25:
-        return br - (radius_island * 2 + 500 + x1)  # 500m measured in google maps, is an estimation of the current situation but it actually is dependent on basin area&island area
+    # return br - (radius_island * 2 + 500 + x1)
+    return max([br - x1 - 2 * np.sqrt(x4 / np.pi) - 500, x1])
+    # return 500
 
-    else: 
-        return br - (radius_island * 2 + 500)
+    # if x1 < br * 0.25:
+    #     return br - (radius_island * 2 + 500 + x1)  # 500m measured in google maps, is an estimation of the current situation but it actually is dependent on basin area&island area
+
+    # else: 
+    #     return br - (radius_island * 2 + 500)
 
 
 def objective_function_4(x1, x2, x3, x4):
