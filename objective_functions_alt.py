@@ -81,7 +81,8 @@ def objective_function_3(x1, x2, x3, x4):
     radius_island = np.sqrt(x2 / np.pi)
     br = 3000 # m the passable width of the river
 
-    return br - (radius_island * 2 + 500 + x1)
+    # return br - (radius_island * 2 + 500 + x1)
+    return max([br - x1 - 2 * np.sqrt(x4 / np.pi) - 500, x1])
     # return 500
 
     # if x1 < br * 0.25:
