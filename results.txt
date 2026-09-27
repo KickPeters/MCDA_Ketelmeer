@@ -1,0 +1,26 @@
+         12798904 function calls (12297328 primitive calls) in 83.615 seconds
+
+   Ordered by: cumulative time
+   List reduced from 2846 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        3    0.001    0.000   83.060   27.687 /Users/lucasvanderschaaf/CEGM 2026-2027/Q1/IMDCE/groeps git/MCDA_Ketelmeer/genetic_algorithm_pfm/algorithm.py:369(run)
+        3    0.053    0.018   83.041   27.680 /Users/lucasvanderschaaf/CEGM 2026-2027/Q1/IMDCE/groeps git/MCDA_Ketelmeer/genetic_algorithm_pfm/algorithm.py:212(_runner)
+       78    0.027    0.000   81.147    1.040 /Users/lucasvanderschaaf/CEGM 2026-2027/Q1/IMDCE/groeps git/MCDA_Ketelmeer/genetic_algorithm_pfm/tetra_pfm/tetra_wrapper.py:125(request)
+       78    0.002    0.000   79.200    1.015 /Users/lucasvanderschaaf/CEGM 2026-2027/Q1/IMDCE/groeps git/MCDA_Ketelmeer/.venv/lib/python3.14/site-packages/requests/api.py:117(post)
+       78    0.001    0.000   79.198    1.015 /Users/lucasvanderschaaf/CEGM 2026-2027/Q1/IMDCE/groeps git/MCDA_Ketelmeer/.venv/lib/python3.14/site-packages/requests/api.py:24(request)
+       78    0.001    0.000   79.187    1.015 /Users/lucasvanderschaaf/CEGM 2026-2027/Q1/IMDCE/groeps git/MCDA_Ketelmeer/.venv/lib/python3.14/site-packages/requests/sessions.py:557(request)
+       78    0.003    0.000   79.121    1.014 /Users/lucasvanderschaaf/CEGM 2026-2027/Q1/IMDCE/groeps git/MCDA_Ketelmeer/.venv/lib/python3.14/site-packages/requests/sessions.py:752(send)
+       78    0.002    0.000   70.614    0.905 /Users/lucasvanderschaaf/CEGM 2026-2027/Q1/IMDCE/groeps git/MCDA_Ketelmeer/.venv/lib/python3.14/site-packages/requests/adapters.py:634(send)
+       78    0.002    0.000   70.573    0.905 /Users/lucasvanderschaaf/CEGM 2026-2027/Q1/IMDCE/groeps git/MCDA_Ketelmeer/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py:598(urlopen)
+       78    0.003    0.000   70.565    0.905 /Users/lucasvanderschaaf/CEGM 2026-2027/Q1/IMDCE/groeps git/MCDA_Ketelmeer/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py:383(_make_request)
+      316    0.003    0.000   46.779    0.148 /Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socket.py:716(readinto)
+      316    0.003    0.000   46.775    0.148 /Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ssl.py:1289(recv_into)
+      316    0.001    0.000   46.772    0.148 /Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ssl.py:1129(read)
+      316   46.770    0.148   46.770    0.148 {method 'read' of '_ssl._SSLSocket' objects}
+       40    0.009    0.000   40.431    1.011 /Users/lucasvanderschaaf/CEGM 2026-2027/Q1/IMDCE/groeps git/MCDA_Ketelmeer/genetic_algorithm_pfm/algorithm.py:194(rerun_eval)
+       78    0.005    0.000   38.380    0.492 /Users/lucasvanderschaaf/CEGM 2026-2027/Q1/IMDCE/groeps git/MCDA_Ketelmeer/.venv/lib/python3.14/site-packages/urllib3/connection.py:607(getresponse)
+       78    0.001    0.000   38.356    0.492 /Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py:1434(getresponse)
+       78    0.003    0.000   38.350    0.492 /Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py:336(begin)
+      822    0.003    0.000   38.313    0.047 {method 'readline' of '_io.BufferedReader' objects}
+       78    0.002    0.000   38.312    0.491 /Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py:303(_read_status)
